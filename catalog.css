@@ -1,0 +1,188 @@
+html,
+body {
+	margin: 0;
+	height: 100%;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.main-header {
+	height: 100px;
+	border-bottom: 1px solid #E6E6E6;
+	box-shadow: 0 1px 1px #F6F6F6;
+	background: url('img/footer_lodyas.png');
+	/* concrete-texture.png */
+}
+
+main {
+	width: 1120px;
+	margin: 0 auto;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.content-wrap {
+	margin: 0 auto;
+	border: 1px solid #aaa;
+	/* border-left: 1px solid #E2E2E2;
+	border-right: 1px solid #E2E2E2; */
+	box-shadow: 0 2px 5px 0px #eee;
+	border-radius: 8px;
+	font-size: 0;
+	/* z-index: -100; */
+}
+
+.product {
+	width: 330px;
+	height: 340px;
+	border: 1px solid #E29500;
+	display: inline-block;
+	margin: 30px 1.72%;
+	vertical-align: top;
+	overflow: hidden;
+	font-size: 17px;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+	z-index: 200;
+	/* box-sizing: border-box; */
+}
+
+.product img {
+	/* width: auto; */
+	max-width: 100%;
+	max-height: 73%;
+	margin: 10px auto;
+	display: block;
+}
+
+.product figcaption {
+	margin-top: 20px;
+	font-weight: lighter;
+}
+
+.product figcaption {
+	text-decoration: none;
+	color: #484848;
+}
+
+.product:hover figcaption {
+	text-decoration: underline;
+	color: #3963C1;
+}
+
+.product:active figcaption {
+	color: #FF9000;
+}
+
+
+/* 		DESCRIPTION BLOCK 		*/
+
+
+.film {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	display: none;
+}
+
+.main-full-description {
+	width: 640px;
+	height: 770px;
+	position: fixed;
+	/* z-index: 100; */
+	background: white;
+	border: 1px solid orange;
+	border-radius: 5px;
+	display: none;
+
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.main-full-description > img {
+	max-width: 100%;
+	max-height: 52%;
+	display: block;
+	margin: 0 auto;
+}
+
+.main-full-description > hr {
+	margin: 0;
+	border: 0;
+	border-bottom: 1px solid #D1D1D1;
+	box-shadow: 0 1px 5px 0 #EAEAEA;
+}
+
+
+
+/* 		DESCRIPTION TEXT 		*/
+
+
+
+.main-full-description > p {
+	font-size: 17px;
+	margin: 20px;
+	margin-bottom: 0;
+}
+
+.main-full-description > table {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.main-full-description td {
+	font-size: 15px;
+	padding-top: 8px;
+}
+
+.title {
+	font-weight: bolder;
+	max-width: 270px;
+	min-width: 250px;
+}
+
+.description {
+	padding-left: 20px;
+}
+
+.price {
+	1font-weight: bolder;
+	position: absolute;
+	left: 20px;
+	bottom: 30px;
+}
+
+#price-value {
+	font-weight: lighter;
+	font-size: 18px;
+	color: #C38A00;
+}
+
+.buy-button {
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 2px 3px 0px #bbb;
+	position: absolute;
+	padding: 15px 30px;
+	background: #DF9100;
+	bottom: 20px;
+	right: 25px;
+	font-size: 17px;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+}
+
+.empty-footer {
+	height: 100px;
+}
+
+footer {
+	height: 100px;
+	margin-top: -100px; 
+	background: url('img/footer_lodyas.png');
+}
